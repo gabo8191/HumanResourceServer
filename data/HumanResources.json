@@ -1,0 +1,603 @@
+{
+  "Teams": [
+    {
+      "nameTeam": "Equipo backenda",
+      "areaTeam": "Desarrollo",
+      "idTeam": "1",
+      "leaderTeam": {
+        "name": "Juan",
+        "lastName": "Perez",
+        "gender": "Masculino",
+        "id": 1234567,
+        "email": "gabo8191@gmail.com",
+        "phone": 312312312,
+        "city": "Cali",
+        "yearBirth": 2001,
+        "monthBirth": 1,
+        "dayBirth": 3,
+        "jobEmployee": {
+          "area": "Desarrollo",
+          "position": "Backend Developer",
+          "isAdmin": true,
+          "isLeader": true
+        },
+        "vacationsEmployee": {
+          "vacationsDays": 14,
+          "vacationsTaken": 1,
+          "totalVacations": 7
+        },
+        "salaryEmployee": {
+          "salaryGross": 900001,
+          "auxTransport": 140606,
+          "salaryNet": 1240607,
+          "productivityBonus": 100000,
+          "learningBonus": 100000,
+          "productivtyBonus": 100000
+        },
+        "notificationsEmployee": [
+          {
+            "message": "Usted ha recibido una solicitud de tipo: Permiso",
+            "date": "24/05/24",
+            "idEmployeeFrom": "12312123"
+          },
+          {
+            "message": "Usted ha recibido una solicitud de tipo: Permiso",
+            "date": "24/05/24",
+            "idEmployeeFrom": "12312123"
+          }
+        ],
+        "requestsEmployee": [
+          {
+            "type": "Permiso",
+            "description": "prueba n",
+            "date": "24/05/24",
+            "status": "Pendiente",
+            "comments": "",
+            "idEmployeeFrom": "12312123"
+          }
+        ]
+      },
+      "membersTeam": [
+        {
+          "name": "pepea",
+          "lastName": "pepee",
+          "gender": "Masculino",
+          "id": 12312123,
+          "email": "pepe@pepe.com",
+          "phone": 12312,
+          "city": "qweqw",
+          "yearBirth": 2002,
+          "monthBirth": 12,
+          "dayBirth": 12,
+          "jobEmployee": {
+            "area": "qwe",
+            "position": "qweqw",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 12, "vacationsTaken": 12 },
+          "salaryEmployee": {
+            "salaryGross": 123123,
+            "auxTransport": 12312,
+            "salaryNet": 1,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [
+            {
+              "idEmployeeFrom": "1234567",
+              "message": "Se han aceptado sus vacaciones",
+              "date": "2021/09/01"
+            },
+            {
+              "message": "Su solicitud de: Vacaciones ha sido aprobada. Tenga en cuenta que:Vacaciones aprobadas",
+              "date": "19/05/24",
+              "idEmployeeFrom": "1234567"
+            },
+            {
+              "message": "Su perfil ha sido actualizado",
+              "date": "19/05/24",
+              "idEmployeeFrom": "1234567"
+            },
+            {
+              "message": "Su solicitud de: Permiso ha sido aprobada. Tenga en cuenta que:PERMISO JEFECITO",
+              "date": "22/05/24",
+              "idEmployeeFrom": "1234567"
+            },
+            {
+              "message": "Su solicitud de: Permiso ha sido aprobada. Tenga en cuenta que:*",
+              "date": "24/05/24",
+              "idEmployeeFrom": "1234567"
+            },
+            {
+              "message": "Su solicitud de: Permiso ha sido aprobada. Tenga en cuenta que:*",
+              "date": "24/05/24",
+              "idEmployeeFrom": "1234567"
+            }
+          ],
+          "requestsEmployee": []
+        }
+      ]
+    },
+    {
+      "nameTeam": "Desarrollo Frontend A",
+      "areaTeam": "Desarrollo",
+      "idTeam": "2",
+      "leaderTeam": {
+        "name": "Laura",
+        "lastName": "Martinez",
+        "gender": "Femenino",
+        "id": 345678901,
+        "email": "laura@example.com",
+        "phone": 6789012345,
+        "city": "Barranquilla",
+        "yearBirth": 1996,
+        "monthBirth": 3,
+        "dayBirth": 10,
+        "jobEmployee": {
+          "area": "Desarrollo",
+          "position": "Frontend Developer",
+          "isAdmin": false,
+          "isLeader": true
+        },
+        "vacationsEmployee": { "vacationsDays": 11, "vacationsTaken": 2 },
+        "salaryEmployee": {
+          "salaryGross": 900000,
+          "auxTransport": 140606,
+          "salaryNet": 1083982,
+          "productivityBonus": 100000,
+          "learningBonus": 100000
+        },
+        "notificationsEmployee": [
+          {
+            "idEmployeeFrom": "1122334455",
+            "message": "Se ha actualizado el salario un empleado",
+            "date": "2021/09/01"
+          },
+          {
+            "idEmployeeFrom": "9988776655",
+            "message": "Un empleado ha solicitado vacaciones",
+            "date": "2021/09/01"
+          }
+        ],
+        "requestsEmployee": [
+          {
+            "idEmployeeFrom": "1122334455",
+            "type": "Vacaciones",
+            "description": "Vacaciones por viaje",
+            "date": "2021/09/01",
+            "status": "Aprobado",
+            "comments": "Vacaciones aprobadas"
+          },
+          {
+            "idEmployeeFrom": "9988776655",
+            "type": "Salario",
+            "description": "Aumento de salario",
+            "date": "2021/09/01",
+            "status": "Rechazado",
+            "comments": "Salario no aprobado"
+          }
+        ]
+      },
+      "membersTeam": [
+        {
+          "name": "Juan",
+          "lastName": "Gomez",
+          "gender": "Masculino",
+          "id": 1122334455,
+          "email": "juan@example.com",
+          "phone": 1234567890,
+          "city": "Bogota",
+          "yearBirth": 1998,
+          "monthBirth": 8,
+          "dayBirth": 12,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Frontend Developer",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 5, "vacationsTaken": 5 },
+          "salaryEmployee": {
+            "salaryGross": 800000,
+            "auxTransport": 140606,
+            "salaryNet": 981982,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [
+            {
+              "idEmployeeFrom": "345678901",
+              "message": "Se han aceptado sus vacaciones",
+              "date": "2021/09/01"
+            }
+          ],
+          "requestsEmployee": []
+        },
+        {
+          "name": "Ana",
+          "lastName": "Lopez",
+          "gender": "Femenino",
+          "id": 9988776655,
+          "email": "ana@example.com",
+          "phone": 9876543210,
+          "city": "Medellin",
+          "yearBirth": 1993,
+          "monthBirth": 2,
+          "dayBirth": 28,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Frontend Developer",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 4, "vacationsTaken": 8 },
+          "salaryEmployee": {
+            "salaryGross": 700000,
+            "auxTransport": 140606,
+            "salaryNet": 879982,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [
+            {
+              "idEmployeeFrom": "345678901",
+              "message": "Se ha rechazado su solicitud de aumento de salario",
+              "date": "2021/09/01"
+            }
+          ],
+          "requestsEmployee": []
+        },
+        {
+          "name": "Maria",
+          "lastName": "Moreno",
+          "gender": "Femenino",
+          "id": 44556677881,
+          "email": "mmoreno@example.com",
+          "phone": 12312312,
+          "city": "Medellin",
+          "yearBirth": 1977,
+          "monthBirth": 3,
+          "dayBirth": 10,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Frontend Developer",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 11, "vacationsTaken": 1 },
+          "salaryEmployee": {
+            "salaryGross": 100000,
+            "auxTransport": 140606,
+            "salaryNet": 244606,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [],
+          "requestsEmployee": []
+        }
+      ]
+    },
+    {
+      "nameTeam": "Sin grupo",
+      "areaTeam": "Sin area",
+      "idTeam": "0",
+      "leaderTeam": {
+        "name": "Sin grupo",
+        "lastName": "Sin grupo",
+        "id": 0,
+        "requestsEmployee": [
+          {
+            "type": "Permiso",
+            "description": "prueba1",
+            "date": "22/05/24",
+            "status": "Pendiente",
+            "comments": "",
+            "idEmployeeFrom": "12345672"
+          },
+          {
+            "type": "Permiso",
+            "description": "prueba",
+            "date": "22/05/24",
+            "status": "Pendiente",
+            "comments": "",
+            "idEmployeeFrom": "12345672"
+          },
+          {
+            "type": "Permiso",
+            "description": "PERMISO 1",
+            "date": "24/05/24",
+            "status": "Pendiente",
+            "comments": "",
+            "idEmployeeFrom": "12345672"
+          }
+        ],
+        "notificationsEmployee": [
+          {
+            "message": "Usted ha recibido una solicitud de tipo: Permiso",
+            "date": "22/05/24",
+            "idEmployeeFrom": "12345672"
+          },
+          {
+            "message": "Usted ha recibido una solicitud de tipo: Permiso",
+            "date": "22/05/24",
+            "idEmployeeFrom": "12345672"
+          },
+          {
+            "message": "Usted ha recibido una solicitud de tipo: Permiso",
+            "date": "24/05/24",
+            "idEmployeeFrom": "12345672"
+          }
+        ]
+      },
+      "membersTeam": [
+        {
+          "name": "Andres",
+          "lastName": "Sanchez",
+          "gender": "Masculino",
+          "id": 98821312,
+          "email": "andresss@example.comaa",
+          "phone": 123123123,
+          "city": "Bogota",
+          "yearBirth": 1986,
+          "monthBirth": 3,
+          "dayBirth": 10,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Backend Developer",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 11, "vacationsTaken": 1 },
+          "salaryEmployee": {
+            "salaryGross": 123123,
+            "auxTransport": 140606,
+            "salaryNet": 0,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [],
+          "requestsEmployee": []
+        },
+        {
+          "name": "Fernando",
+          "lastName": "Lopez",
+          "gender": "Masculino",
+          "id": 33234234,
+          "email": "flopez@examples.com",
+          "phone": 123123123,
+          "city": "Bogota",
+          "yearBirth": 1999,
+          "monthBirth": 3,
+          "dayBirth": 10,
+          "jobEmployee": {
+            "position": "Project Manager",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 0, "vacationsTaken": 1 },
+          "salaryEmployee": {
+            "salaryGross": 10000,
+            "auxTransport": 140606,
+            "salaryNet": 186156,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [],
+          "requestsEmployee": []
+        },
+        {
+          "name": "Laura",
+          "lastName": "Gonzalez",
+          "gender": "Femenino",
+          "id": 123456745,
+          "email": "laura@example.com12",
+          "phone": 6789012345,
+          "city": "Barranquilla",
+          "yearBirth": 1996,
+          "monthBirth": 12,
+          "dayBirth": 15,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Frontend Developer",
+            "isAdmin": true,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 13, "vacationsTaken": 2 },
+          "salaryEmployee": {
+            "salaryGross": 900000,
+            "auxTransport": 140606,
+            "salaryNet": 1083982,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [],
+          "requestsEmployee": []
+        },
+        {
+          "name": "Pedro",
+          "lastName": "Martinez",
+          "gender": "Masculino",
+          "id": 3322114455,
+          "email": "pedro@example.com",
+          "phone": 7890123456,
+          "city": "Cartagena",
+          "yearBirth": 1989,
+          "monthBirth": 9,
+          "dayBirth": 25,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Backend Developer",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 5, "vacationsTaken": 5 },
+          "salaryEmployee": {
+            "salaryGross": 900000,
+            "auxTransport": 140606,
+            "salaryNet": 1083982,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [],
+          "requestsEmployee": []
+        },
+        {
+          "name": "Kevin",
+          "lastName": "Gonzalez",
+          "gender": "Masculino",
+          "id": 55555555,
+          "email": "kevink@example.com",
+          "phone": 6789012345,
+          "city": "Barranquilla",
+          "yearBirth": 1990,
+          "monthBirth": 12,
+          "dayBirth": 15,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Frontend Developer",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": { "vacationsDays": 11, "vacationsTaken": 2 },
+          "salaryEmployee": {
+            "salaryGross": 100000,
+            "auxTransport": 140606,
+            "salaryNet": 244606,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [],
+          "requestsEmployee": []
+        },
+        {
+          "name": "Luis",
+          "lastName": "Gonzalez",
+          "id": 12345672,
+          "gender": "Masculino",
+          "email": "luisg@example.com",
+          "phone": 8901234567,
+          "city": "Bogota",
+          "yearBirth": 1978,
+          "monthBirth": 5,
+          "dayBirth": 12,
+          "jobEmployee": {
+            "position": "Backend Developer",
+            "isAdmin": false,
+            "isLeader": false
+          },
+          "vacationsEmployee": {
+            "vacationsDays": 0,
+            "vacationsTaken": 0,
+            "totalVacations": 0
+          },
+          "salaryEmployee": {
+            "salaryGross": 900000,
+            "auxTransport": 140606,
+            "salaryNet": 1240606,
+            "productivityBonus": 100000,
+            "learningBonus": 100000,
+            "productivtyBonus": 100000
+          },
+          "notificationsEmployee": [
+            {
+              "message": "Su n�mina ha sido actualizada",
+              "date": "22/05/24",
+              "idEmployeeFrom": "1234567"
+            },
+            {
+              "message": "Su solicitud de: Permiso ha sido aprobada. Tenga en cuenta que:Salario no aprobado",
+              "date": "22/05/24",
+              "idEmployeeFrom": "1234567"
+            }
+          ],
+          "requestsEmployee": []
+        }
+      ]
+    },
+    {
+      "nameTeam": "pruebas",
+      "areaTeam": "pruebas",
+      "idTeam": "12312",
+      "leaderTeam": {
+        "name": "Maria",
+        "lastName": "Castillo",
+        "gender": "Femenino",
+        "id": 987654321,
+        "email": "laura@example.com",
+        "phone": 6789012345,
+        "city": "Barranquilla",
+        "yearBirth": 2003,
+        "monthBirth": 12,
+        "dayBirth": 15,
+        "jobEmployee": {
+          "area": "Desarrollo",
+          "position": "Frontend Developer",
+          "isAdmin": false,
+          "isLeader": true
+        },
+        "vacationsEmployee": { "vacationsDays": 13, "vacationsTaken": 2 },
+        "salaryEmployee": {
+          "salaryGross": 900000,
+          "auxTransport": 140606,
+          "salaryNet": 1083982,
+          "productivityBonus": 100000,
+          "learningBonus": 100000
+        },
+        "notificationsEmployee": [
+          {
+            "idEmployeeFrom": "98765",
+            "message": "Se ha actualizado el salario un empleado",
+            "date": "2021/09/01"
+          }
+        ],
+        "requestsEmployee": [
+          {
+            "idEmployeeFrom": "98765",
+            "type": "Salario",
+            "description": "Aumento de salario",
+            "date": "2021/09/01",
+            "status": "No aprobado",
+            "comments": "Salario no aprobado"
+          }
+        ]
+      },
+      "membersTeam": [
+        {
+          "name": "Juan",
+          "lastName": "Gomez",
+          "gender": "Femenino",
+          "id": 98765,
+          "email": "laura@example.com",
+          "phone": 6789012345,
+          "city": "Barranquilla",
+          "yearBirth": 2,
+          "monthBirth": 12,
+          "dayBirth": 15,
+          "jobEmployee": {
+            "area": "Desarrollo",
+            "position": "Frontend Developer",
+            "isAdmin": false,
+            "isLeader": true
+          },
+          "vacationsEmployee": { "vacationsDays": 13, "vacationsTaken": 2 },
+          "salaryEmployee": {
+            "salaryGross": 900000,
+            "auxTransport": 140606,
+            "salaryNet": 1083982,
+            "productivityBonus": 100000,
+            "learningBonus": 100000
+          },
+          "notificationsEmployee": [
+            {
+              "idEmployeeFrom": "987654321",
+              "message": "Se ha rechazado su solicitud de aumento de salario",
+              "date": "2021/09/01"
+            }
+          ],
+          "requestsEmployee": []
+        }
+      ]
+    }
+  ]
+}
